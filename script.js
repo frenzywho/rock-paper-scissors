@@ -51,4 +51,4 @@ function playGame() {
     console.log("Your Score : " + humanScore);
     console.log("Opponent's Score : " + compScore);
 }
-playGame();
+// playGame();

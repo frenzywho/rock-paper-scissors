@@ -1,12 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <title>Rock Paper Scissors</title>
 </head>
+
 <body>
-    
+    <div class="main">
+        <div class="header">Rock Paper Scissors</div>
+<div class = "middle">
+        <div class="btns">
+            <div class="rock">
+                <button class="icon-btn" id="rockBtn"><i class="fas fa-hand-fist"></i></button>
+                <div>Rock</div>
+            </div>
+            <div class="paper">
+                <button class="icon-btn" id="paperBtn"><i class="fas fa-hand"></i></button>
+                <div>Paper</div>
+            </div>
+            <div class="scissor">
+                <button class="icon-btn" id="scissorsBtn"><i class="fas fa-hand-scissors"></i></button>
+                <div>Scissor</div>
+            </div>
+        </div>
+        <div class="scoreboard">
+            <div class="score-box">
+                <h3>Human</h3>
+                <p id="humanScore">0</p>
+            </div>
+            <div class="score-box">
+                <h3>Computer</h3>
+                <p id="computerScore">0</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+    <script src="script.js"></script>
 </body>
+
 </html>
